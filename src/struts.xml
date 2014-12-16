@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+	"http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<!--指定全局国际化资源文件base名 -->
+	<constant name="struts.custom.i18n.resources" value="messageResource" />
+	<!--指定国际化编码所使用的字符集 -->
+	<constant name="struts.i18n.encoding" value="GBK" />
+	<!-- 上传的全部图片的最大限制 -->
+	<constant name="struts.multipart.maxSize" value="1024102400" />
+	<constant name="struts.devMode" value="true" />
+	<package name="struts2.0" extends="struts-default">
+		<!--定义拦截器 -->
+		<interceptors>
+			<!--定义权限拦截器 -->
+			<interceptor name="authority" class="com.cqupt.login.AuthorityInterceptor"></interceptor>
+			<interceptor-stack name="mydefaultstcak">
+				<interceptor-ref name="defaultStack"></interceptor-ref>
+				<interceptor-ref name="authority"></interceptor-ref>
+			</interceptor-stack>
+		</interceptors>
+		<default-interceptor-ref name="mydefaultstcak"></default-interceptor-ref>
+		<global-results>
+			<result name="login" type="redirect">/reLogin.jsp</result>
+		</global-results>
+		
+		<action name="loginAction" class="com.cqupt.login.LoginAction">
+			<!--定义3个逻辑试图和物理资源之间的映射 -->
+			<result name="success">/mainFrame/frame.jsp</result>
+		</action>
+		<!-- 登录验证 -->
+		<action name="checkLoginAction" class="com.cqupt.login.CheckLoginAction"></action>
+		<action name="loginOutAction" class="com.cqupt.login.LoginOutAction"></action>
+		<action name="userMenuAction" class="com.cqupt.login.UserMenuAction"></action>
+		<!-- 系统管理 修改密码 -->
+		<action name="changePWDAction" class="com.cqupt.login.ChangePWDAction"></action>
+		<!-- 菜单表URL action与Jsp对应关系 -->
+		<action name="welcomeAction" class="com.cqupt.sysMenu.action.WelcomeAction">
+			<result name="success">/mainFrame/welcome.jsp</result>
+		</action>
+		<action name="performanceQueryAction" class="com.cqupt.sysManger.action.PerformanceQueryAction" >
+			<result>/sysManger/performanceShow.jsp</result>
+		</action>
+		<!-- 系统管理 第一个子菜单 菜单表里指向的userManager -->
+		<action name="onLineUserManagerAction" class="com.cqupt.sysMenu.action.WelcomeAction">
+			<result name="success">/sysManger/onLineUser.jsp</result>
+		</action>
+		<!-- 系统管理 查询在线用户 -->
+		<action name="onLineUserAction" class="com.cqupt.sysManger.action.OnLineUserAction"></action>
+		<!-- 系统管理 强制用户退出登录 -->
+		<action name="onlineUserForceExitAction"
+			class="com.cqupt.sysManger.action.OnlineUserForceExitAction"></action>
+		<!-- 系统管理 用户管理 -->
+		<action name="userManageAction" class="com.cqupt.sysMenu.action.WelcomeAction">
+			<result name="success">/sysManger/userManager.jsp</result>
+		</action>
+		<!-- 系统管理 用户查询 -->
+		<action name="userQueryAction" class="com.cqupt.sysMenu.action.WelcomeAction">
+			<result name="success">/sysManger/userQuery.jsp</result>
+		</action>
+		<!-- 系统管理 用户查询 -->
+		<action name="userManagerQueryAction"
+			class="com.cqupt.sysManger.action.UserManagerQueryAction"></action>
+		<!-- 系统管理 显示用户 -->
+		<action name="userListQueryAction" class="com.cqupt.sysManger.action.UserListQueryAction"></action>
+		<!-- 系统管理用户管理 修改用户状态 -->
+		<action name="userStateChangeAction" class="com.cqupt.sysManger.action.UserStateChangeAction"></action>
+		<!-- 系统管理用户管理 新增用户 -->
+		<action name="userManagerAddUserAction"
+			class="com.cqupt.sysManger.action.UserManagerAddUserAction"></action>
+		<!--系统管理 用户管理 修改用户传参 -->
+		<action name="userManagerModifyAction"
+			class="com.cqupt.sysManger.action.UserManagerModifyAction">
+			<result name="sucess">/sysManger/userManagerModify.jsp</result>
+		</action>
+		<!--系统管理 用户管理 修改用户操作 -->
+		<action name="userManagerModifyUserAction"
+			class="com.cqupt.sysManger.action.UserManagerModifyUserAction"></action>
+		<!-- 系统管理用户管理 删除用户 -->
+		<action name="userManagerDeleteUserAction"
+			class="com.cqupt.sysManger.action.UserManagerDeleteUserAction"></action>
+		<!-- 系统管理用户管理 修改用户密码 -->
+		<action name="userManagerPasswordModifyAction"
+			class="com.cqupt.sysManger.action.UserManagerPasswordModifyAction"></action>
+		<!--系统管理 用户组 查询 -->
+		<action name="userGroupQueryAction" class="com.cqupt.pub.action.UserGroupQueryAction"></action>
+		<action name = "moneySaveAction" class ="com.cqupt.sysMenu.action.WelcomeAction">
+			<result name = "success">/sysManger/moneySave.jsp</result>
+		</action>
+		<action name = "MoneySaveQueryAction" class = "com.cqupt.sysManger.action.MoneySaveQueryAction"/>
+		<action name = "moneySaveAddMoneyAction" class = "com.cqupt.sysManger.action.MoneySaveAddMoneyAction"/>
+		<action name = "moneyDepositAction" class ="com.cqupt.sysMenu.action.WelcomeAction" >
+			<result name = "success">/sysManger/moneyDraw.jsp</result>
+		</action>
+		<action name = "MoneyDrawQueryAction"  class="com.cqupt.sysManger.action.MoneyDrawQueryAction"/>
+		<action name = "moneySaveDrawMoneyAction" class = "com.cqupt.sysManger.action.MoneySaveDrawMoneyAction"/>
+		<action name = "transferAccounts" class = "com.cqupt.sysMenu.action.WelcomeAction">
+			<result name = "success">/sysManger/transferAccounts.jsp</result>
+		</action>
+		<action name = "transferAccountMoneyAction" class = "com.cqupt.sysManger.action.TransferAccountMoneyAction"/>
+		<action name = "cardNumberQueryAction" class = "com.cqupt.sysManger.action.CardNumberQueryAction"/>
+	</package>
+</struts>

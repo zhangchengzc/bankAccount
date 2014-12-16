@@ -1,0 +1,14 @@
+
+.pmForm { min-height:25px; _height:25px; line-height:25px; margin-bottom:10px;}
+.pmForm .cellBg { background: #F7F7F7; }
+.pmForm .cellBg a{ color:#5F9304; }
+.pmForm p { line-height:28px; min-height:25px; zoom:1; margin-top: 5px; padding-top: 2px; padding-bottom: 2px; overflow:hidden; }
+.pmForm label { display:inline-block; width:7.5em; text-align:right; color:#727272; vertical-align:top; padding-left: 5px; }
+.pmForm .intxt, textarea { padding:4px 5px; border:1px solid #9e9e9e; width:320px; background:url(../images/input_bg.gif) no-repeat 0 0; color: #666; }
+.pmForm textarea {height:5em; resize: none;}
+.pmForm input{ margin:0 3px; }
+.meTitle { border-bottom:1px solid #0000FF; color:#0000FF; line-height:16px; padding:10px 15px 5px 15px; font-size: 14px; margin-bottom:3px; }
+.condition{ float:left; padding:0 10px 0px 0px; }
+.condition ul{ float:left; padding:8px 0px 0px 0px; line-height:22px; overflow:hidden; }
+.condition ul li{ float:left; margin-right:-1px; padding-left:11px; padding-right:11px;}
+

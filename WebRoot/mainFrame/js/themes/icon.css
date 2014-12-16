@@ -1,0 +1,149 @@
+
+.sysmanage{
+	background:url('icons/sysmanage.png') no-repeat;
+}
+.onLineUser{
+	background:url('icons/user_m.png') no-repeat;
+}
+.store{
+	background:url('icons/store.png') no-repeat;
+}
+.input{
+	background:url('icons/input.png') no-repeat;
+}
+.instore{
+	background:url('icons/instore.png') no-repeat;
+}
+.gadgetsStorage{
+	background:url('icons/repairlist.png') no-repeat;
+}
+.sale{
+	background:url('icons/sale.png') no-repeat;
+}
+.saler{
+	background:url('icons/supply.png') no-repeat;
+}
+.search{
+	background:url('icons/search.png') no-repeat;
+}
+.repair{
+	background:url('icons/repair.png') no-repeat;
+}
+.CaseOut{
+	background:url('icons/trac.png') no-repeat;
+}
+.CaseOldBack{
+	background:url('icons/sale-back.png') no-repeat;
+}
+.exchange{
+	background:url('icons/transfer.png') no-repeat;
+}
+.input{
+	background:url('icons/input.png') no-repeat;
+}
+.saleBack{
+	background:url('icons/search.png') no-repeat;
+}
+.orderSale{
+	background:url('icons/sale-out.png') no-repeat;
+}
+.gadgetsAccept{
+	background:url('icons/menu.png') no-repeat;
+}
+.transfermanage{
+	background:url('icons/transfer.png') no-repeat;
+}
+.transferEnd{
+	background:url('icons/undo.png') no-repeat;
+}
+.transferBegin{
+	background:url('icons/redo.png') no-repeat;
+}
+
+.organizationManage{
+	background:url('icons/supply.png') no-repeat;
+}
+.basic{
+	background:url('icons/network_service.png') no-repeat;
+}
+.fault{
+	background:url('icons/no.png') no-repeat;
+}
+.repair{
+	background:url('icons/repair.png') no-repeat;
+}
+.Check{
+	background:url('icons/report_repair.png') no-repeat;
+}
+.terminatorBrand{
+	background:url('icons/instore.png') no-repeat;
+}
+.model{
+	background:url('icons/comm.png') no-repeat;
+}
+.materialmanag{
+	background:url('icons/user_m.png') no-repeat;
+}
+.caseWate{
+	background:url('icons/label_blue_hot.png') no-repeat;
+}
+.saleWate{
+	background:url('icons/coin_stack_copper_share.png') no-repeat;
+}
+.backUser{
+	background:url('icons/sale_user.png') no-repeat;
+}
+.orderManage{
+	background:url('icons/coin_stack_copper_share.png') no-repeat;
+}
+.oldGadgetsOut{
+	background:url('icons/sale-back.png') no-repeat;
+}
+.boardChange{
+	background:url('icons/customer_service.png') no-repeat;
+}
+.factoryBackReceive{
+	background:url('icons/reload.png') no-repeat;
+}
+.diaobom{
+	background:url('icons/report_go.png') no-repeat;
+}
+.diao{
+	background:url('icons/reload.png') no-repeat;
+}
+.caseWait{
+	background:url('icons/text_preview.png') no-repeat;
+}
+.saleWait{
+	background:url('icons/report_trac.png') no-repeat;
+}
+.agreeManage{
+	background:url('icons/notes.png') no-repeat;
+}
+.organization{
+	background:url('icons/home.png') no-repeat;
+}
+.userManage{
+	background:url('icons/user.png') no-repeat;
+}
+.userQuery{
+	background:url('icons/search.png') no-repeat;
+}
+.accessorie{
+	background:url('icons/repairRegister.png') no-repeat;
+}
+.versions{
+	background:url('icons/service_comment.png') no-repeat;
+}
+.sup{
+	background:url('icons/trac.png') no-repeat;
+}
+.brand{
+	background:url('icons/label_blue_hot.png') no-repeat;
+}
+.gadgetsApply{
+	background:url('icons/excel_up.png') no-repeat;
+}
+.orderApprove{
+	background:url('icons/customer_service.png') no-repeat;
+}

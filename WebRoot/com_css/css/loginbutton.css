@@ -1,0 +1,36 @@
+@CHARSET "UTF-8";
+
+.sbmbtn{
+ border-bottom: 0px outset;
+ border-left: 0px outset;
+ border-right: 0px outset;
+ border-top: 0px outset;
+ cursor: hand;
+ width:82px;
+ height:25px;
+ background-image:url(../../images/login/login_Submit_Out.gif);
+ }
+.resetbtn{
+ border-bottom: 0px outset;
+ border-left: 0px outset;
+ border-right: 0px outset;
+ border-top: 0px outset;
+ cursor: hand;
+ width:82px;
+ height:25px;
+ background-image:url(../../images/login/login_Cancel_Out.gif);
+ }
+
+ .goodbutton {
+	BORDER-RIGHT: #21719C 1px solid;
+	PADDING-RIGHT: 2px;
+	BORDER-TOP: #21719C 1px solid;
+	PADDING-LEFT: 2px;
+	FONT-SIZE: 12px;
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#FFFFFF, EndColorStr=#76BCE3);
+	BORDER-LEFT: #21719C 1px solid;
+	CURSOR: hand;
+	COLOR: black;
+	PADDING-TOP: 2px;
+	BORDER-BOTTOM: #21719C 1px solid
+}

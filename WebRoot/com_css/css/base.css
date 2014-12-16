@@ -1,0 +1,120 @@
+/* CSS Document */
+
+body {
+	color: #333333;
+	margin:0;
+	overflow:auto;
+	scrollbar-face-color:#ffffff;
+	scrollbar-hightlight-color:#888888;
+	scrollbar-3dlight-color:#cccccc;
+	scrollbar-darkshadow-color:#dddddd;
+	scrollbar-shadow-color:#999999;
+	scrollbar-arrow-color:#cccccc;
+	scrollbar-tack-color:#888888;
+	font-size:12px;
+}
+a {
+
+}
+a:link {
+	text-decoration: none;
+	color: #333333;
+}
+a:visited {
+	text-decoration: none;
+	color: #333333;
+}
+a:hover {
+	text-decoration: none;
+	color: #666666;
+}
+a:active {
+	text-decoration: none;
+	color: #666666;
+}
+h1 {
+	margin:0;
+	padding:0;
+}
+h2 {
+	margin:0;
+	padding:0;
+}
+h3 {
+	margin:0;
+	padding:0;
+}
+h4 {
+	margin:0;
+	padding:0;
+}
+h5 {
+	margin:0;
+	padding:0;
+}
+h6 {
+	margin:0;
+	padding:0;
+}
+h7 {
+	margin:0;
+	padding:0;
+}
+h8 {
+	margin:0;
+	padding:0;
+}
+.left {
+	float:left;
+}
+.hide {
+	display:none
+}
+.show {
+	display:block;
+}
+.right {
+	float:right;
+}
+.left {
+	float:left;
+}
+.middle {
+	text-align:center;
+}
+.middleMar {
+	margin:0px auto;
+}
+.pointer {
+	cursor:pointer;
+}
+.vspace5 {
+	margin:5px auto;
+}
+.vspace10 {
+	margin:10px auto;
+}
+.space5 {
+	margin:auto 5px;
+}
+.space10 {
+	margin:auto 10px;
+}
+.orange_text {
+	color:#FF6600;
+}
+.clear {
+	clear:both;
+}
+.table_blue{
+border-collapse:collapse;}
+
+.table_blue tr td{
+border:#65B4F6 1px solid;}
+
+.input_line{
+border:0;border-bottom:1 solid #0066CC;background:;
+}
+.input_hide{
+border:0;background:;
+}

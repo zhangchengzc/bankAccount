@@ -1,0 +1,17 @@
+TD.sort {
+BORDER-BOTTOM: #E3E5F1 1px solid;COLOR: windowtext; PADDING-BOTTOM: 1px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; PADDING-TOP: 1px;font-size: 9pt;
+}
+TABLE.sort {
+BORDER-BOTTOM: c0c0c0 0px solid; BORDER-LEFT: c0c0c0 1px solid; BORDER-RIGHT: c0c0c0 1px solid; BORDER-TOP: c0c0c0 1px solid;font-size: 9pt;
+}
+THEAD TD {
+	BACKGROUND: buttonface; BORDER-BOTTOM: buttonshadow 1px solid; BORDER-LEFT: buttonhighlight 1px solid; BORDER-RIGHT: buttonshadow 1px solid; BORDER-TOP: buttonhighlight 1px solid; CURSOR:pointer; HEIGHT: 25px; PADDING-TOP: 0px;font-size: 10pt; color:#000000; background:url(../../images/base/tableHeadBg.jpg);
+}
+THEAD .arrow {
+	COLOR: black; FONT-FAMILY: webdings; FONT-SIZE: 10px; HEIGHT: 11px; MARGIN-BOTTOM: 2px; MARGIN-TOP: -3px; OVERFLOW: hidden; PADDING-BOTTOM: 2px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px; WIDTH: 10px
+}
+tr.sort {
+    background-color: expression(
+            (this.sectionRowIndex % 2 == 0) ? "#FFFFFF" : "#ECF0FC"   //奇偶显示不同的颜色
+    );
+}

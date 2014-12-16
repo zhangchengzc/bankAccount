@@ -1,0 +1,23 @@
+.new_del_add
+{
+    border-collapse:collapse; /* 关键属性：合并表格内外边框(其实表格边框有2px，外面1px，里面还有1px哦) */
+    border:solid #8FC6D6; /* 设置边框属性；样式(solid=实线)、颜色(#999=灰) */
+    border-width:1px 1px 1px 1px; /* 设置边框状粗细：上 右 下 左 = 对应：1px 0 0 1px */
+}
+
+.new_del_add tr
+{
+    background-color: expression((this.sectionRowIndex % 2 == 0) ? "#E6F2F7" : "#FFFFFF");
+}
+
+.changetblcolor
+{
+    border-collapse:collapse; /* 关键属性：合并表格内外边框(其实表格边框有2px，外面1px，里面还有1px哦) */
+    border:solid #8FC6D6; /* 设置边框属性；样式(solid=实线)、颜色(#999=灰) */
+    border-width:1px 1px 1px 1px; /* 设置边框状粗细：上 右 下 左 = 对应：1px 0 0 1px */
+}
+
+.changetblcolor tr
+{
+    background-color: expression((this.sectionRowIndex % 2 == 0) ? "#E6F2F7" : "#FFFFFF");
+}

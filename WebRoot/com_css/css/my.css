@@ -1,0 +1,126 @@
+/*��ӭҳ�����ʽ����*/
+.title {
+	color : #ff0000;
+	cursor : hand;
+	font-size:12px;
+}
+.taskTitle {
+	cursor : hand;
+	color : #000000;
+	font-weight:bold;
+	font-size:12px;
+}
+ol {
+	margin-top:0px;
+	margin-bottom:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+li {
+	cursor:pointer;
+}
+.C_module{
+	height:100%;
+}
+.style_btn1,.style_btn2,.style_btn3,.style_btn4,.style_btn5{
+    width:15px;
+    height:15px;
+    padding-bottom:2px;
+    border:outset 1px;
+}
+.style_btn1{background:#BFE37B;}
+.style_btn2{background:#FF6666;}
+.style_btn3{background:#00CCCC;}
+.style_btn4{background:#6699CC;}
+.style_btn5{background:#66CCFF;}
+
+.small_contailer_box1{
+	background: #FFFFFC;
+	width:40%;
+	height: 167px;  
+	border: #BBD2E9 1px solid;
+	margin: 1px 0px 3px 3px;
+	float: left;
+}
+
+.small_contailer_box1 .hr_title{
+	width: width;
+	height: 18px;
+   font-size: 14px;
+	font-weight: bold;
+	color: #FF5317;
+	background-color:#F5F7F8;
+	border-bottom: #BBD2E9 1px solid;
+	padding-top: 3px;
+	
+}
+.small_contailer_box1 .hr_content{
+	padding: 5px 0 0 10px;
+	line-height: 20px;
+}
+
+.small_contailer_box1 .hr_content a{
+	text-decoration: none;
+	color: #16387C;
+
+}
+.small_contailer_box1 .hr_content a:hover{
+	text-decoration: underline;
+	color: #2E8EF6;
+
+}
+.small_contailer_box{
+	background: #FFFFFC;
+	height: 360px;
+	width:50%;
+	border: #BBD2E9 1px solid;
+	margin: 1px 2px 4px 2px;
+	float: left;
+	font: 30px;
+}
+.small_contailer_box .hr_title{
+	width: width: 420px;
+	height: 18px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FF5317;
+	background-color:#F5F7F8;
+	border-bottom: #BBD2E9 1px solid;
+	padding-top: 3px;
+}
+
+.small_contailer_box .hr_content{
+	padding: 5px 0 0 10px;
+	line-height: 20px;
+}
+.small_contailer_box .hr_content a{
+	text-decoration: none;
+	color: #16387C;
+}
+.small_contailer_box .hr_content a:hover{
+	text-decoration: underline;
+	color: #2E8EF6;
+
+}
+.table_box{
+	width: 95%;
+	text-align: left;
+}
+
+.text_title {
+	padding-left: 10px;
+	text-align: left;
+	background-color: #F5F7F8;
+	font-size: 14px;
+	color: #010882;
+}
+.border_all_light {
+	border: 1px solid #BBD2E9;
+	PADDING: 1px;
+} 
+.table_size{
+    font-size: 13px;
+}
+
+a img{border:none;}
+
