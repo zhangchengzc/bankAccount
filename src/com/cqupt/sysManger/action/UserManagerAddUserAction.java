@@ -90,7 +90,7 @@ public class UserManagerAddUserAction  extends ActionSupport{
 					session.closeSession();
 					resultStr = "allExist";
 				} else {
-					sql = "INSERT INTO sys_user VALUES('"+txtUserId+"','"+txtName+"','"+md5fun.getMD5ofStr(txtPsw)+"','"+txtDeptId+"','',111,'用户','"+isUseable+"','"+txtEmail+"','"+txtPhone+"','"+remark+"',CURDATE())";
+					sql = "INSERT INTO sys_user VALUES('"+txtUserId+"','"+txtName+"','"+md5fun.getMD5ofStr(txtPsw)+"',1,'',111,'用户','"+isUseable+"','"+txtEmail+"','"+txtPhone+"','"+remark+"',CURDATE())";
 System.out.println(sql);					
 					session.add(sql);
 					sql = "insert into money_save (date,card_number,save_money) values(CURDATE(),'"+txtUserId+"','"+remark+"')";

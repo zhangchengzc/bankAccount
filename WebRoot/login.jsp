@@ -41,10 +41,44 @@ function key_down(){
 		checkLogin();
 	}
 }
-function f_add()
+/* function f_add()
 {
 	$.ligerDialog.warn('请联系管理员申请卡号,联系方式：管理员邮箱：18883282594@163.com！');
 		//m.max();
+} */
+function f_add()
+{
+    /*$.ligerDialog.open({ title: '新增用户信息', width: 650, height: 300,modal:false,url: 'sysManger/userManagerAdd.jsp', buttons: [
+        { text: '关闭窗口', onclick: f_closeAddWindow }
+    ]
+    });*/
+    $.ligerDialog.open({ 
+    	  title: '新增用户信息',
+    	  height: 400, 
+    	  width: 700, 
+    	  url:'sysManger/userManagerAdd.jsp',	        	
+    	   showMax: true,	        	   
+    	  isResize: true,   
+    	  slide: false,  
+    	 // modal:false,
+    	  
+    	   buttons: [{ text: '关闭窗口', onclick: f_closeAddWindow }]
+      }); 
+}
+function f_add2()
+{
+	$.ligerDialog.open({ 
+  	  title: '忘记密码',
+  	  height: 400, 
+  	  width: 700, 
+  	  url:'sysManger/passwordForgot.jsp',	        	
+  	   showMax: true,	        	   
+  	  isResize: true,   
+  	  slide: false,  
+  	 // modal:false,
+  	  
+  	   buttons: [{ text: '关闭窗口', onclick: f_closeAddWindow }]
+    }); 	
 }
 function f_closeAddWindow(item, dialog)
 {
@@ -118,10 +152,15 @@ function f_closeAddWindow(item, dialog)
 						<div id="loginbottom" class="login">
 							<font color="#ff0000"><div id="errorInfo"><div class="warn" id="resultpsw"></div></div></font>
 						</div>
-						<input type="button" id="loginBtn" value="登录" name="sm1"  class="login_btn" onClick="checkLogin()" />
+					<input type="button" id="loginBtn" value="登录" name="sm1"  class="login_btn" onClick="checkLogin()" />
 						<div id="loginbottom" class="login">
 							<font color="#ff0000"><div id="errorInfo"><div class="warn" id="resultpsw"></div></div></font>
 						</div>
+					<div style="margin-left:300px;width:55px;">
+						<a href="#" onclick="f_add2()">
+							忘记密码
+						</a>
+					</div>
 					</dd>
 				</dl>
 				

@@ -168,7 +168,7 @@
 	  $.unblockUI();
       if(result=='success'||result=='allExist'){ 
 	      if(result=='success'){
-	    	 	window.parent.$("#maingrid4").ligerGrid().loadData(true);	
+	    	 	//window.parent.$("#maingrid4").ligerGrid().loadData(true);	
 	    	 	
 	    	   	$.ligerDialog.success('提交成功，请关闭对话框！','提示',function(){	
 	    	   		//window.parent.$.controls.Dialog.close();
