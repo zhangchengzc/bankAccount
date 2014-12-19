@@ -82,6 +82,31 @@
                 alert(v.element($("#txtName")));
             });        
         });  
+        function f_change()
+        {
+      	  var passWord = $("#password").val();
+      	  var actionURL = "passwordAction?passWord="+passWord;
+      	  
+      	  var count = 0;
+        		$.ajax({
+  				type:"POST",
+  				url:actionURL,
+  				dataType:"json",
+  				async:false,
+  				success:function(data){
+  					//构建监控指标数组seriesArr
+  					$.each(data, function(key,val){
+  						 	count = val;
+  						});
+  					}
+  				});
+        		if(count == 0)
+        			{
+        				$.ligerDialog.error('密码错误,请核实后重新输入');
+        				$("#password").val("");
+        			}
+        		
+        }
       function ajaxUpdate(){  
     	  $.blockUI({message:'<h5><img src="../images/loading.gif" /> 系统正在提交中……</h5>' }); 
          var params=$('#form1').serialize().replace(/\+/g, ' '); //这里直接就序列化了表单里面的值；很方便  
@@ -155,6 +180,13 @@ body {
 
 		<table cellpadding="0" cellspacing="0" class="l-table-edit"
 			width="100%">
+			<tr>
+				<td align="right" class="l-table-edit-td"><font color="#ff0000">*</font>请输入密码:</td>
+				<td align="left" class="l-table-edit-td"><input
+					name="password" type="password" id="password" ltype="password"
+					validate="{required:true,minlength:1,maxlength:20}" onblur = "f_change()"/></td>
+				<td align="left"></td>
+			</tr>
 			<tr>
 				<td align="right" class="l-table-edit-td"><font color="#ff0000">*</font>请取钱:</td>
 				<td align="left" class="l-table-edit-td"><input

@@ -93,7 +93,7 @@
 		});*/
 		$.ligerDialog.open({
 			title : '取钱',
-			height : 150,
+			height : 250,
 			width : 400,
 			url : 'sysManger/moneydrawAdd.jsp',
 			showMax : true,
