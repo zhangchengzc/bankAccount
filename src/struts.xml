@@ -100,5 +100,7 @@
 		</action>
 		<action name = "transferAccountMoneyAction" class = "com.cqupt.sysManger.action.TransferAccountMoneyAction"/>
 		<action name = "cardNumberQueryAction" class = "com.cqupt.sysManger.action.CardNumberQueryAction"/>
+		<!-- 取钱核实密码 -->
+		<action name = "passwordAction" class = "com.cqupt.sysManger.action.PasswordAction"/>
 	</package>
 </struts>
