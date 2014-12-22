@@ -67,18 +67,7 @@ function f_add()
 }
 function f_add2()
 {
-	$.ligerDialog.open({ 
-  	  title: '忘记密码',
-  	  height: 400, 
-  	  width: 700, 
-  	  url:'sysManger/passwordForgot.jsp',	        	
-  	   showMax: true,	        	   
-  	  isResize: true,   
-  	  slide: false,  
-  	 // modal:false,
-  	  
-  	   buttons: [{ text: '关闭窗口', onclick: f_closeAddWindow }]
-    }); 	
+	$.ligerDialog.warn('请联系管理员核实信息后修改密码!');	
 }
 function f_closeAddWindow(item, dialog)
 {
