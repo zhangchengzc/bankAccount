@@ -152,14 +152,14 @@ $(function() {
 			</span>		
 			<span style="padding-left: 10px; font-size: 25px;"><!--  img
 					src="mainFrame/images/logoBig.png" width="140" height="45"
-					align="absmiddle" />-->重庆邮电大学重邮小分队&nbsp;&nbsp;&nbsp;&nbsp;银行账户系统
+					align="absmiddle" />-->家庭账户系统&nbsp;&nbsp;&nbsp;&nbsp;记账系统
 			 </span>
 		</div>
 		<!-- 下面部分 脚 -->
 		<div region="south" split="true"
 			style="height: 30px; background: #D2E0F2;">
 			<div class="footer">
-				By 重邮四人组
+				By 张成
 			</div>
 		</div>
 		<!-- 左边部分  用户菜单-->

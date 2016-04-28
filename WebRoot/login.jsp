@@ -98,7 +98,7 @@ function f_closeAddWindow(item, dialog)
 <li><font size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </font></li>
 
-				<li><font size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;重邮小分组银行账户系统</font></li>
+				<li><font size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;银行账户系统</font></li>
 				
 			</ul>
 		</div>
@@ -156,7 +156,7 @@ function f_closeAddWindow(item, dialog)
 			</fieldset>
 		</form>
 	</div>	
-	<div id="footer" >by 张成,郭振方,程路,詹洪</div>
+	<div id="footer" >by 张成</div>
 </div>
 </body>
 </html>
