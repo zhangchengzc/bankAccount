@@ -1,6 +1,5 @@
 #bankAccount sql 文件zhangcheng
-
-
+此系统 为测试ligerUI和Struts2的银行账户系统，以下为数据库sql语句
 /*
 Navicat MySQL Data Transfer
 
