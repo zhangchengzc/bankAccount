@@ -49,7 +49,10 @@ function checkLogin(){
 		              type:'post',    //数据发送方式   
 		              dataType:'text',   //接受数据格式   
 		              data:params,   //要传递的数据；就是上面序列化的值   
-		              success:callback //回传函数(这里是函数名)    
+		              success:callback, //回传函数(这里是函数名)
+			      error: function(XMLHttpRequest) {
+				alert('error')
+			      }
 		       });     
 	 setTimeout(function () { $.unblockUI();alert('系统异常，登陆超时，请稍后再试'); }, 60000);
 	//var loginAction_userId = document.getElementById('loginAction_userId');
