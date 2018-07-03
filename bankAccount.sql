@@ -628,13 +628,8 @@ CREATE TABLE `sys_user` (
 -- ----------------------------
 -- Records of sys_user
 -- ----------------------------
-INSERT INTO `sys_user` VALUES ('2012211728', '程路', 'E10ADC3949BA59ABBE56E057F20F883E', '1', '', '111', '用户', '可用', '', '', '10000', '2014-11-25 00:00:00');
 INSERT INTO `sys_user` VALUES ('admin', '超级管理员', 'E10ADC3949BA59ABBE56E057F20F883E', '1', '管理平台', '1', '管理部管理员', '可用', null, null, '800', '2012-09-17 00:00:00');
 INSERT INTO `sys_user` VALUES ('fuxiao', '附小', 'E10ADC3949BA59ABBE56E057F20F883E', '1', '', '111', '用户', '可用', '', '', '0', '2014-11-24 00:00:00');
-INSERT INTO `sys_user` VALUES ('guozhenfang', '郭振方', '96E79218965EB72C92A549DD5A330112', '1', '', '111', '用户', '可用', '', '18888333333', '866', '2014-11-24 00:00:00');
-INSERT INTO `sys_user` VALUES ('wangxiaoxiao', '王潇潇', 'E10ADC3949BA59ABBE56E057F20F883E', '1', '', '111', '用户', '可用', '', '', '11000', '2014-11-24 00:00:00');
-INSERT INTO `sys_user` VALUES ('zhangcheng', '张成', '96E79218965EB72C92A549DD5A330112', '1', '', '111', '用户', '可用', '18883282594@163.com', '', '19900', '2014-11-24 00:00:00');
-
 -- ----------------------------
 -- Table structure for `sys_user_group`
 -- ----------------------------
