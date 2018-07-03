@@ -15,7 +15,7 @@ public final class DbConnection {
         //   private  String url = "jdbc:mysql://172.23.8.75:3306/cqmass?characterEncoding=gb2312";
       private  String url = "jdbc:mysql://localhost:3306/bankaccount?characterEncoding=UTF-8";//?characterEncoding=utf8
       private  String user = "root"; 
-      private  String password = "131518zc"; 
+      private  String password = ""; 
       private Logger logger =  Logger.getLogger(this.getClass());
 	      
       public DbConnection() {
